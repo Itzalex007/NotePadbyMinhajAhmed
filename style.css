@@ -1,0 +1,134 @@
+*{margin: 0; 
+padding: 0;}
+body{background-color:black;}
+.navBar{
+    display: flex;
+    width: 100vw;
+    justify-content: left;
+    align-items: center;
+    height: 66px;
+    background-color: rgb(150, 151, 208);
+    margin-bottom: 14px;
+}
+.note{font-size: 48px;
+    margin-left: 20px;
+    margin-right: 10px;
+    color: black;}
+    .name{font-size: 35px;
+        color: black;
+    font-family: cursive;
+    }
+    .btnDiv{
+        display: flex;
+        height: 40px;
+        width: 100vw;
+        align-items: center;
+        justify-content: right;
+        /* background-color: blue; */
+        /* input-security: auto; */
+    }
+    .btnClass{
+        margin-bottom: 16px;
+        margin-top: 22px;
+        padding: 10px;
+        margin-right: 712px;
+        background-color: white;
+color: black;
+font-size: 20px;
+cursor: pointer;
+border: 5px solid yellow;
+border-radius: 59%;
+    }
+    /* .centerKaro{height: 100vh;
+    width: 100vw;
+background-color: yellowgreen;
+display: flex;
+} */
+.opration{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    height: 184px;
+width: 284px;
+background-color: #9697d0;
+margin-left: 13px ;
+overflow-y: scroll;
+/* display: ; */
+height: 182px;
+width: 91vw;
+margin: auto;
+}
+ .centerKaro{
+    display: flex;
+    height: 53vh;
+    width: 100vw;
+    background-color: #2f102e;
+    flex-direction: row;
+    flex-direction: column;
+    overflow: scroll;
+    /* margin: 5px ; */
+    margin-top: 18px;
+    margin-bottom: 10px;
+    
+} 
+.hidden{
+    display: none;
+}
+.center{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: blue;
+    justify-content: left;
+    flex-direction: row;
+    /* align-items: center; */
+    
+}
+    .twoBtn{
+        display: flex;
+        justify-content: right;
+    }
+    .edit{
+margin-right: 10px; 
+cursor: pointer;
+color: white;
+background-color: black;
+padding: 3px;
+border: solid 1px red;   }
+.delete{
+    color: white;
+    cursor: pointer;
+background-color: black;
+padding: 3px;
+border: solid 1px red;
+    margin-right: 5px;
+}
+
+textarea{
+    width: 1355px;
+    height: 133px;
+    margin-left: 13px;
+    position: relative;
+    top: 4px;
+    left: -2px;
+font-size: 20px;
+color: white;
+background: black;
+border: solid red 3px;
+cursor: text;}
+@media screen  and (max-width:848px){
+
+    .btnClass{
+        margin: auto;
+    }
+    
+}
+@media screen  and (max-width:358px){
+
+    .navBar > i , .name{
+        /* margin: auto; */
+        font-size: 20px;
+    }
+    
+}
